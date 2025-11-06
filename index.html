@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular Interview Questions - Explained Simply</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header-wave"></div>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="main-title">🎓 Angular Interview Questions</h1>
+            <p class="subtitle">Explained like you're 5! With examples and animations</p>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search questions..." class="search-box">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number" id="totalQuestions">42</span>
+                <span class="stat-label">Questions</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="answeredQuestions">0</span>
+                <span class="stat-label">Explored</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="progressPercent">0%</span>
+                <span class="stat-label">Progress</span>
+            </div>
+        </div>
+
+        <div class="questions-grid" id="questionsContainer"></div>
+    </main>
+
+    <div class="modal" id="answerModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="modal-body">
+                <h2 class="question-title" id="modalQuestion"></h2>
+                <div class="answer-content" id="modalAnswer"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <p>Made with ❤️ for Angular Learners</p>
+        <p>Keep learning, keep growing! 🚀</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
